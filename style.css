@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eef7f3;
+    color: #222;
+    transition: 0.3s;
+}
+
+
+/* HEADER */
+
+header {
+    text-align: center;
+    padding: 30px;
+    background: #2e8b70;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.dark-btn {
+    background: white;
+    color: #222;
+}
+
+
+/* MAIN */
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+
+/* DASHBOARD */
+
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px #ccc;
+}
+
+.card p {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+
+/* BOX */
+
+.box {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px #ddd;
+}
+
+.box h2 {
+    margin-top: 0;
+}
+
+
+/* INPUTS */
+
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+
+/* BUTTON */
+
+button {
+    padding: 12px 20px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 8px;
+    background: #2e8b70;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+
+/* MEDICINE */
+
+.medicine {
+    padding: 18px;
+    margin: 12px 0;
+    background: #f0faf5;
+    border-left: 5px solid #2e8b70;
+    border-radius: 10px;
+}
+
+.medicine h3 {
+    margin-top: 0;
+}
+
+.taken {
+    background: #dff5df;
+}
+
+.pending {
+    background: #fff5d6;
+}
+
+
+/* DELETE */
+
+.delete-btn {
+    background: #d9534f;
+    margin-left: 5px;
+}
+
+
+/* EMERGENCY */
+
+.emergency {
+    border-left: 6px solid red;
+}
+
+
+/* DARK MODE */
+
+.dark {
+    background: #121212;
+    color: white;
+}
+
+.dark .box,
+.dark .card {
+    background: #1f1f1f;
+    color: white;
+}
+
+.dark input,
+.dark select {
+    background: #333;
+    color: white;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+    .dashboard {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main {
+        width: 95%;
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    .dashboard {
+        grid-template-columns: 1fr;
+    }
+
+}
+/* DARK MODE BUTTON */
+
+.dark-btn {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: white;
+    color: black;
+}
+
+
+/* DARK MODE */
+
+body.dark {
+    background: #121212;
+    color: white;
+}
+
+body.dark .box,
+body.dark .card {
+    background: #1f1f1f;
+    color: white;
+}
+
+body.dark input,
+body.dark select {
+    background: #333;
+    color: white;
+    border: 1px solid #666;
+}
+
+body.dark .medicine {
+    background: #292929;
+    color: white;
+}
+
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark p {
+    color: white;
+}
+#historyList + button {
+    display: inline-block;
+    padding: 12px 20px;
+    margin-top: 10px;
+    background: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
