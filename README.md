@@ -1,28 +1,39 @@
 # Smart Medicine Alert 💊
 
-A web-based medicine reminder application that helps users manage medicines, track taken doses, view medicine history, and store emergency contact details.
+A web-based medicine reminder application built using HTML, CSS, and JavaScript.
 
 ## Features
 
 - Add, edit, and delete medicines
-- Medicine search
+- Search medicines
 - Medicine reminders
 - Medicine taken tracking
-- Taken and pending dashboard
+- Taken and pending status
 - Medicine history
 - Clear medicine history
 - Emergency contact
 - Dark mode
 - Local storage
 
-## Technologies
+## Technologies Used
 
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript
 - Git
 - GitHub
 
 ## Project Status
 
-Currently a frontend-based medicine reminder application.
+Frontend version completed.
+
+Backend integration with Python, Flask, and MySQL will be added in the next phase.
+
+## Future Enhancements
+
+- Python Flask backend
+- MySQL database
+- User authentication
+- REST APIs
+- Real-time medicine reminders
+- Online deployment
