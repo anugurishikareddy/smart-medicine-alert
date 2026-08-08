@@ -1,39 +1,119 @@
 # Smart Medicine Alert 💊
 
-A web-based medicine reminder application built using HTML, CSS, and JavaScript.
+A web-based medicine management and reminder system designed to help users organize their medicines, track medication status, and manage important medicine-related information.
 
-## Features
+## ✨ Features
 
-- Add, edit, and delete medicines
-- Search medicines
-- Medicine reminders
-- Medicine taken tracking
-- Taken and pending status
-- Medicine history
-- Clear medicine history
-- Emergency contact
-- Dark mode
-- Local storage
+* 💊 Add medicines with dosage and time
+* ✏️ Edit medicine details
+* 🗑️ Delete medicines
+* 🔍 Search medicines
+* ✅ Mark medicines as Taken
+* ⏳ Track Pending and Taken status
+* 📋 View medicine history
+* 📊 Dashboard with medicine statistics
+* 📞 Emergency contact management
+* 🌙 Dark mode
+* 🔔 Medicine reminder functionality
+* 💾 SQLite database storage
 
-## Technologies Used
+## 🛠️ Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript
-- Git
-- GitHub
+### Frontend
 
-## Project Status
+* HTML5
+* CSS3
+* JavaScript
 
-Frontend version completed.
+### Backend
 
-Backend integration with Python, Flask, and MySQL will be added in the next phase.
+* Python
+* Flask
 
-## Future Enhancements
+### Database
 
-- Python Flask backend
-- MySQL database
-- User authentication
-- REST APIs
-- Real-time medicine reminders
-- Online deployment
+* SQLite
+
+### Tools
+
+* Git
+* GitHub
+* Visual Studio Code
+
+## 🔗 System Architecture
+
+```text
+User
+  ↓
+Frontend (HTML + CSS + JavaScript)
+  ↓
+Flask REST API
+  ↓
+SQLite Database
+```
+
+## 📁 Project Structure
+
+```text
+smart-medicine-alert/
+│
+├── index.html
+├── style.css
+├── script.js
+├── app.py
+├── database.py
+├── medicine.db
+├── test_api.py
+├── .gitignore
+└── README.md
+```
+
+## 🚀 How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone <repository-url>
+cd smart-medicine-alert
+```
+
+### 2. Install Flask
+
+```bash
+pip install flask
+```
+
+### 3. Start the Flask server
+
+```bash
+python app.py
+```
+
+### 4. Open the application
+
+Open the URL shown by Flask in your browser.
+
+## 📌 Project Status
+
+**Completed Personal Project** ✅
+
+The application includes a functional frontend, Flask backend, SQLite database, REST API integration, medicine management, and medication status tracking.
+
+## 🔮 Future Enhancements
+
+* User authentication
+* Email/SMS medicine alerts
+* Cloud database integration
+* Online deployment
+* Multiple user profiles
+* Improved mobile responsiveness
+
+## 👩‍💻 Author
+
+**Anugu Rishika Reddy**
+
+Computer Science & Engineering Student
+
+---
+
+⭐ If you find this project useful, consider giving it a star!
